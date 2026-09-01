@@ -1,0 +1,12 @@
+{
+  "name": "Premanand Digital Clock",
+  "short_name": "Digital Clock",
+  "description": "Offline digital clock with flip animation",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "any",
+  "lang": "en-IN"
+}
