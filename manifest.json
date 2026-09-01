@@ -1,12 +1,13 @@
 {
-  "name": "Premanand Digital Clock",
-  "short_name": "Digital Clock",
-  "description": "Offline digital clock with flip animation",
-  "start_url": "./",
-  "scope": "./",
+  "background_color": "#d9b7b7",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#050505",
+  "name": "Premanand ji maharaj Digital Clock",
   "orientation": "any",
-  "lang": "en-IN"
+  "scope": "/",
+  "short_name": "Digital Clock",
+  "start_url": "/",
+  "theme_color": "#050505",
+  "description": "Offline digital clock with full screen display",
+  "lang": "en"
 }
