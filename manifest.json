@@ -4,9 +4,9 @@
   "display": "standalone",
   "name": "Premanand ji maharaj Digital Clock",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/DigitalClock/",
   "short_name": "Digital Clock",
-  "start_url": "/",
+  "start_url": "/DigitalClock/",
   "theme_color": "#050505",
   "description": "Offline digital clock with full screen display",
   "lang": "en"
