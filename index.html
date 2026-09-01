@@ -56,4 +56,11 @@ function tick(){update();setTimeout(tick,1005-Date.now()%1000)}tick();
 q("orient").onclick=()=>{portrait=!portrait;document.documentElement.style.setProperty("--dummy","0");q("orient").textContent=portrait?"↕ Vertical":"↔ Horizontal";screen.orientation?.lock?.(portrait?"portrait":"landscape").catch(()=>{});};
 q("full").onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.();
 q("awake").onclick=async()=>{try{await navigator.wakeLock.request("screen");q("awake").textContent="✓ Keep Awake"}catch(e){}};
-</script></body></html>
+</script><script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js");
+  });
+}
+</body>
+ </html>
